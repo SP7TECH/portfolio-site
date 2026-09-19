@@ -133,6 +133,45 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="stats">
+        <div className="container">
+          <div className="card-stats">
+            <div>
+              <h2>1M+</h2>
+              <h6>Monthly Active Users</h6>
+              <p>
+                High-traffic consumer pages optimized for Simplilearn's main
+                platform.
+              </p>
+            </div>
+
+            <div>
+              <h2>80 / 100</h2>
+              <h6>Lighthouse Score</h6>
+              <p>
+                Engineered a major performance overhaul, rising from an initial
+                score of 33.
+              </p>
+            </div>
+
+            <div>
+              <h2>40%</h2>
+              <h6>Manual Effort Reduced</h6>
+              <p>Architected an automated quotation-to-invoice workflow.</p>
+            </div>
+
+            <div>
+              <h2>10+ Eng</h2>
+              <h6>Engineering Leadership</h6>
+              <p>
+                Direct SDE IV leadership, mentoring, and technical architecture
+                ownership.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
