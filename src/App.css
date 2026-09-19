@@ -45,3 +45,95 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+/* Header  */
+
+header {
+  border-bottom: 1px solid var(--color-stroke);
+}
+
+header .container {
+  font-family: "Geist Mono", monospace;
+  padding: 3rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sp7tech {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.sp7tech h2 {
+  color: var(--color-white);
+  font-size: 1.6rem;
+}
+
+.sp7tech h2 span {
+  color: var(--color-text);
+}
+
+.sp7tech .green-dot {
+  background-color: var(--color-text-green);
+  border-radius: 50%;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+header nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+header nav ul li a:hover {
+  color: var(--color-white);
+}
+
+.header-ctas {
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.sde-4 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--color-stroke);
+  border-radius: 0.4rem;
+}
+
+.green-dot-small {
+  background-color: var(--color-text-green);
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.header-ctas button {
+  background-color: var(--color-teal);
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--color-background);
+  font-family: inherit;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -4,42 +4,44 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="container">
-        <div>
-          <span className="green-dot"></span>
-          <h2>
-            SUMIT_PANDEY
-            <span>.sh</span>
-          </h2>
-        </div>
-
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-
-            <li>
-              <a href="#">Experience</a>
-            </li>
-
-            <li>
-              <a href="#">Systems</a>
-            </li>
-
-            <li>
-              <a href="#">Capabilities</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div>
-          <div className="sde-4">
-            <span className="green-fot-small"></span>
-            <p>SDE IV</p>
+      <header>
+        <div className="container">
+          <div className="sp7tech">
+            <div className="green-dot"></div>
+            <h2>
+              SUMIT_PANDEY
+              <span>.sh</span>
+            </h2>
           </div>
 
-          <button className="mail-cta">spandey19012001@gmail.com</button>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+
+              <li>
+                <a href="#">Experience</a>
+              </li>
+
+              <li>
+                <a href="#">Systems</a>
+              </li>
+
+              <li>
+                <a href="#">Capabilities</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div className="header-ctas">
+            <div className="sde-4">
+              <span className="green-dot-small"></span>
+              <p>SDE IV</p>
+            </div>
+
+            <button className="mail-cta">spandey19012001@gmail.com</button>
+          </div>
         </div>
       </header>
 
