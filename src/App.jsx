@@ -369,6 +369,212 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="experience">
+        <div className="container">
+          <h6>
+            &dash;<span></span>ENGINEERING CHRONOLOGY
+          </h6>
+          <h2>Professional Experience</h2>
+          <p>
+            A timeline highlighting technical growth, leadership scope, and
+            concrete business outcomes.
+          </p>
+
+          {/* Simplilearn  */}
+          <div className="experience-card">
+            <div>icon</div>
+            <div>
+              {/* top bar  */}
+              <div className="experience-card-header">
+                <div>
+                  <h4>Software Development Engineer IV (SDE 4)</h4>
+                  <div>
+                    <p>Simplilearn</p>
+                    <span className="grey-dot"></span>
+                    <p>Bengaluru, IN (Remote)</p>
+                  </div>
+                </div>
+
+                <div className="experience-card-highlight">
+                  01/2026 – Present
+                </div>
+              </div>
+
+              {/* content  */}
+              <ul>
+                <li>
+                  Lead a highly collaborative engineering team of 10+ software
+                  professionals to deliver enterprise learning systems.
+                </li>
+                <li>
+                  Improved 20+ core pages serving over 1M+ active monthly users,
+                  modernizing performance and legacy codebases.
+                </li>
+                <li>
+                  Successfully raised Lighthouse Performance baseline from a
+                  critical 33 up to an efficient 80, resolving deep visual shift
+                  and script issues.
+                </li>
+                <li>
+                  Architected and deployed a Next.js/NestJS CMS with rich live
+                  preview modules, reusable page templates, draft/publish flows,
+                  and automation scripts for 70+ operational users.
+                </li>
+                <li>
+                  Pioneered WCAG web accessibility standards, delivering
+                  AI-assisted learning modules and modernizing AWS
+                  infrastructure utilizing S3, CloudFront, ECS, EC2, Load
+                  Balancers, Secrets Manager, Jenkins, and Terraform.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Pazy  */}
+          <div className="experience-card">
+            <div>icon</div>
+            <div>
+              {/* top bar  */}
+              <div className="experience-card-header">
+                <div>
+                  <h4>Software Engineer</h4>
+                  <div>
+                    <p>Pazy</p>
+                    <span className="grey-dot"></span>
+                    <p>Bengaluru, IN</p>
+                  </div>
+                </div>
+
+                <div className="experience-card-highlight-past">
+                  08/2025 – 12/2025
+                </div>
+              </div>
+
+              {/* content  */}
+              <ul>
+                <li>
+                  Led the technical buildout of the prepaid credit cards
+                  issuance module with complex multi-tenant routing.
+                </li>
+                <li>
+                  Spearheaded accounts payable features and enterprise-grade
+                  expense management reporting components in Vue.js.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Juntrax  */}
+          <div className="experience-card">
+            <div>icon</div>
+            <div>
+              {/* top bar  */}
+              <div className="experience-card-header">
+                <div>
+                  <h4>Software Development Engineer</h4>
+                  <div>
+                    <p>Juntrax Solutions</p>
+                    <span className="grey-dot"></span>
+                    <p>Bengaluru, IN</p>
+                  </div>
+                </div>
+
+                <div className="experience-card-highlight">
+                  07/2023 – 08/2025
+                </div>
+              </div>
+
+              {/* content  */}
+              <ul>
+                <li>
+                  Built comprehensive quotation-to-invoice automation flows that
+                  directly eliminated manual business operations by 40%.
+                </li>
+                <li>
+                  Designed and deployed a highly reliable real-time
+                  notifications service utilizing Socket.io, RabbitMQ, and
+                  Redis.
+                </li>
+                <li>
+                  Constructed custom React Likert scale UI libraries and
+                  designed high-density payroll visualization dashboards under
+                  clean MVVM / Dependency Injection paradigms.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Medorn  */}
+          <div className="experience-card">
+            <div>icon</div>
+            <div>
+              {/* top bar  */}
+              <div className="experience-card-header">
+                <div>
+                  <h4>Co-Founder</h4>
+                  <div>
+                    <p>Medorn Ventures</p>
+                    <span className="grey-dot"></span>
+                    <p>Bhopal, IN (Remote)</p>
+                  </div>
+                </div>
+
+                <div className="experience-card-highlight">
+                  02/2022 – 06/2023
+                </div>
+              </div>
+
+              {/* content  */}
+              <ul>
+                <li>
+                  Engineered the database models, REST API layer, and secure
+                  administration dashboards for a complex pharmaceutical ERP.
+                </li>
+                <li>
+                  Built predictive supply metrics and automated Daily Call
+                  Reporting (DCR) templates for field representatives.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Webenza  */}
+          <div className="experience-card">
+            <div>icon</div>
+            <div>
+              {/* top bar  */}
+              <div className="experience-card-header">
+                <div>
+                  <h4>Frontend Developer</h4>
+                  <div>
+                    <p>Simplilearn</p>
+                    <span className="grey-dot"></span>
+                    <p>Remote</p>
+                  </div>
+                </div>
+
+                <div className="experience-card-highlight">
+                  08/2021 – 01/2022
+                </div>
+              </div>
+
+              {/* content  */}
+              <ul>
+                <li>
+                  Identified and resolved critical loading bottlenecks by
+                  implementing image optimization pipelines, asset deferral, and
+                  smart caching.
+                </li>
+                <li>
+                  Achieved measurable SEO visibility jumps and raised PageSpeed
+                  scores globally across digital assets.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
