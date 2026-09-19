@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
 :root {
   --color-background: #0a0b0d;
   --color-text: #8d96a3;
@@ -22,4 +24,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Utility classes  */
+
+.container {
+  width: 1200px;
 }
