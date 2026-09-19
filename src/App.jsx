@@ -49,21 +49,22 @@ function App() {
         <div className="container">
           <div className="hero-row">
             {/* left part  */}
-            <div className="">
-              <div className="hero-highlight">
-                <span className="blut-fot"></span>
+            <div className="left">
+              <div className="chip-highlight">
+                <span></span>
                 <p>AVAILABLE FOR SENIOR SDE ROLES</p>
               </div>
 
-              <h1>
+              <h1 className="font-outfit">
                 Architecting High-Performance Systems & Scalable AI Solutions
               </h1>
 
-              <p className="hero-desc">
-                I am Sumit Pandey, a Senior Software Development Engineer (SDE
-                IV) with 5+ years of experience building elite frontend
-                architectures, distributed backends, and AI-enabled software
-                systems. Currently driving key initiatives at Simplilearn.
+              <p className="hero-desc font-outfit">
+                I am Sumit Pandey, a{" "}
+                <span>Senior Software Development Engineer (SDE IV)</span> with
+                5+ years of experience building elite frontend architectures,
+                distributed backends, and AI-enabled software systems. Currently
+                driving key initiatives at Simplilearn.
               </p>
 
               <div className="hero-cta">
@@ -86,7 +87,7 @@ function App() {
             </div>
 
             {/* right part  */}
-            <div>
+            <div className="right">
               <div className="json">
                 <div className="json-header">
                   <div className="json-header-window">
